@@ -3,6 +3,8 @@ body {
     font-family: "Poppins", sans-serif;
     height: 100%;
     width: 100%;
+    position: relative;
+        background-color: #F1FAEE;
 }
 
 a {
@@ -13,26 +15,41 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    align-items: center;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        /* margin-left: 1.5rem;
+             margin-right: 1.5rem; */
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #F1FAEE;
 }
 
 .logo-home {
-    font-size: xx-large;
+    font-size: 2em;
 }
 
+.logo-home {
+    color: black;
+}
 .top-section {
     display: flex;
     background-image: url("./images/flashcards.jpg");
     background-size: contain;
     background-size: cover;
-    /* background-color: #A8DADC; */
     height: 100vh;
 }
 
 .top-left {
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     width: 40vw;
     margin-left: 1rem;
+    color: #F1FAEE;
 }
 .sign-in {
     background-color: #457B9D;
