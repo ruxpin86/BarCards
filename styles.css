@@ -1,0 +1,21 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo-home {
+    font-size: xx-large;
+}
+
+.top-section {
+    display: flex;
+}
+
+.top-left {
+    width: 30vw;
+}
