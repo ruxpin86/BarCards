@@ -34,3 +34,20 @@ a {
     width: 40vw;
     margin-left: 1rem;
 }
+.sign-in {
+    background-color: #457B9D;
+    padding: .5rem;
+    border: 1px solid #A8DADC;
+    border-radius: 15px;
+    color: #F1FAEE;
+    -webkit-transition: .5s;
+}
+
+.sign-in:hover {
+    background-color: #A8DADC;
+    color: #1D3557;
+    transition: .5s linear;
+    /* box-shadow: 5px, 5px, 5px #1D3557; */
+    border: 1px solid #1D3557;
+    -webkit-transition: .5s;
+}
