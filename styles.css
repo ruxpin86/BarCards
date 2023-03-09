@@ -1,5 +1,8 @@
-* {
+html,
+body {
     font-family: "Poppins", sans-serif;
+    height: 100%;
+        width: 100%;
 }
 
 a {
@@ -9,8 +12,8 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 30px;
-        margin-right: 30px;
+    margin-left: 1.5rem;
+        margin-right: 1.5rem;
 }
 
 .logo-home {
@@ -19,11 +22,14 @@ a {
 
 .top-section {
     display: flex;
-    background-color: #A8DADC;
+    background-image: url("./images/flashcards.jpg");
+        background-size: contain;
+        background-size: cover;
+        /* background-color: #A8DADC; */
         height: 100vh;
 }
 
 .top-left {
     width: 40vw;
-        margin-left: 25px;
+        margin-left: 1rem;
 }
